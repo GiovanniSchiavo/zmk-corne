@@ -31,31 +31,37 @@
         EnterLeft {
             bindings = <&kp RETURN>;
             key-positions = <16 15 14>;
+            timeout-ms = <100>;
         };
 
         EnterRight {
             bindings = <&kp RETURN>;
             key-positions = <19 20 21>;
+            timeout-ms = <100>;
         };
 
         BackspaceLeft {
             bindings = <&kp BACKSPACE>;
             key-positions = <4 3 2>;
+            timeout-ms = <100>;
         };
 
         BackspaceRight {
             bindings = <&kp BACKSPACE>;
             key-positions = <7 8 9>;
+            timeout-ms = <100>;
         };
 
         DeleteLeft {
             bindings = <&kp DEL>;
             key-positions = <28 28 26 27>;
+            timeout-ms = <100>;
         };
 
         DeleteRight {
             bindings = <&kp DELETE>;
             key-positions = <32 31 33>;
+            timeout-ms = <100>;
         };
     };
 
