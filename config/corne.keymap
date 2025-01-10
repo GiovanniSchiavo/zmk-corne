@@ -95,19 +95,19 @@
 
         symbols {
             bindings = <
-&trans  &none   &trans       &trans    &kp PERCENT  &trans       &kp CARET       &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &trans
-&trans  &trans  &kp AT_SIGN  &kp HASH  &kp DOLLAR   &kp TILDE    &kp MINUS       &kp EQUAL     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE       &trans
-&trans  &none   &trans       &trans    &trans       &trans       &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
-                             &trans    &trans       &trans       &trans          &trans        &trans
+&trans  &none   &kp HASH     &kp AMPERSAND   &kp PERCENT  &trans       &kp CARET       &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &trans
+&trans  &trans  &kp AT_SIGN  &kp LA(LC(N5))  &kp DOLLAR   &kp TILDE    &kp MINUS       &kp EQUAL     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE       &trans
+&trans  &none   &trans       &trans          &trans       &trans       &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
+                             &trans          &trans       &trans       &trans          &trans        &trans
             >;
         };
 
         grave_accent {
             bindings = <
-&trans  &trans           &trans  &grave_accent E         &trans                   &trans    &trans  &grave_accent U  &grave_accent I  &grave_accent O  &trans  &trans
-&trans  &grave_accent A  &trans  &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))  &trans    &trans  &trans           &trans           &trans           &trans  &trans
-&trans  &trans           &trans  &trans                  &trans                   &trans    &trans  &trans           &trans           &trans           &trans  &trans
-                                 &trans                  &trans                   &trans    &trans  &trans           &trans
+&trans  &trans           &trans           &grave_accent E         &trans                   &trans    &trans  &grave_accent U  &grave_accent I  &grave_accent O  &trans  &trans
+&trans  &grave_accent A  &kp PRINTSCREEN  &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))  &trans    &trans  &trans           &trans           &trans           &trans  &trans
+&trans  &trans           &trans           &trans                  &trans                   &trans    &trans  &trans           &trans           &trans           &trans  &trans
+                                          &trans                  &trans                   &trans    &trans  &trans           &trans
             >;
         };
     };
