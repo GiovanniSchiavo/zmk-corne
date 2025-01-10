@@ -75,10 +75,10 @@
 
         symbols {
             bindings = <
-&trans  &none   &kp K_UNDO   &kp K_REDO  &kp PERCENT  &trans       &kp CARET       &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &trans
-&trans  &trans  &kp AT_SIGN  &kp HASH    &kp DOLLAR   &kp TILDE    &kp MINUS       &kp EQUAL     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE       &trans
-&trans  &none   &kp K_CUT    &kp K_COPY  &kp K_PASTE  &trans       &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
-                             &trans      &trans       &trans       &trans          &trans        &trans
+&trans  &none   &kp LC(Z)    &kp LC(Y)       &kp PERCENT  &trans       &kp CARET       &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &trans
+&trans  &trans  &kp AT_SIGN  &kp HASH        &kp DOLLAR   &kp TILDE    &kp MINUS       &kp EQUAL     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE       &trans
+&trans  &none   &kp LC(X)    &kp LC(K_COPY)  &kp LC(V)    &trans       &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
+                             &trans          &trans       &trans       &trans          &trans        &trans
             >;
         };
 
